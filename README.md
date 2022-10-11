@@ -245,7 +245,7 @@ self.hidden = YES;
 
 - Next it will ask for a password. This is your root password for your iPhone. If you have not changed it, it is ```alpine```. Because we told it to respring after, it will ask for it twice, so type your password again when it asks you. When your device resprings, your dock should be hidden! To delete it off your phone, go into your package manager, refresh and it should be there as a package like all the others.
 
-
+- 使用 `make package DEBUG=0 FINALPACKAGE=1` 制作正式版
 
 
 
